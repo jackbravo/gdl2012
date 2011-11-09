@@ -1,0 +1,16 @@
+name = Drupal Latino Lite
+description = Tema Ligero para Drupal Latino
+core = 6.x
+engine = phptemplate
+
+;css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/grid16-960.css
+
+;regions
+regions[header]  = header
+regions[content] = content
+regions[footer]  = footer
+
+; panels layouts
+plugins[panels][layouts] = layouts

@@ -1,0 +1,11 @@
+.attenders,
+.sessions,
+.column-left,
+.column-right {
+  float:left;
+}
+
+.sponsors {
+  clear:both;
+}
+

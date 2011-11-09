@@ -1,0 +1,7 @@
+.column-main,
+.column-left,
+#main-title,
+#main-content,
+.column-right {
+  float:left;
+}
