@@ -1,9 +1,4 @@
 .traducir {
-	font-family: 'Hammersmith One', Arial, Helvetica, sans-serif;
-	font-size: 140%;
-	text-align: left;
-	color: #94d8f2;
-
 }
 
 .Suscribete {
@@ -48,8 +43,12 @@ body {
   height: 30px;
 }
 
-#header #secondary ul {
+#header .secondary ul {
   padding-top:5px;
+}
+
+#header .secondary {
+  float:left;
 }
 
 #red-bar {
@@ -57,7 +56,7 @@ body {
   height: 30px;
 }
 
-#secondary ul li a {
+.secondary ul li a {
 	font-family: 'Hammersmith One', Arial, Helvetica, sans-serif;
 	text-align: left;
 	color: #fff;
@@ -66,7 +65,7 @@ body {
   text-decoration:none;
 }
 
-#footer #secondary ul li a {
+#footer .secondary ul li a {
   color: #AC4A63;
 }
 
@@ -112,4 +111,26 @@ h4 {
   font-weight: normal;
 }
 
+#language-switcher  #block-locale-0  h2 {
+  display:none;
+}
 
+#language-switcher {
+  float:left; 
+	font-family: 'Hammersmith One', Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: left;
+	color: #94d8f2;
+}
+
+#language-switcher ul li {
+  list-style-type: none;
+}
+
+#language-switcher ul li a {
+  color:#94DAF3;
+  text-decoration: none;
+  display:block;
+  float:left; 
+  margin: 5px 10px;
+}

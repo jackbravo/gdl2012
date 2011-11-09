@@ -98,13 +98,15 @@
     <div id="header">
         <div id="header-region">
           <?php if (!empty($secondary_links)): ?>
-            <div id="secondary" class="clear-block grid16-indent-4 grid16-9">
+            <div id="secondary-header" class="secondary grid16-indent-4 grid16-9">
               <?php print theme('links', $secondary_links, array('class' => 'links secondary-links')); ?>
             </div>
           <?php endif; ?>
-          <?php if (!empty($header)): ?>
-              <?php print $header; ?>
-          <?php endif; ?>
+          <div id="language-switcher" class="grid16-3">
+            <?php if (!empty($header)): ?>
+                <?php print $header; ?>
+            <?php endif; ?>
+          </div>
         </div>
     </div> <!-- /header -->
     <div id="container" class="clear-block">
@@ -124,7 +126,7 @@
     <div id="footer-wrapper">
       <div id="footer">
         <?php if (!empty($secondary_links)): ?>
-          <div id="secondary" class="clear-block grid16-indent-4 grid16-9">
+          <div id="secondary-footer" class="secondary clear-block grid16-indent-4 grid16-9">
             <?php print theme('links', $secondary_links, array('class' => 'links secondary-links')); ?>
           </div>
         <?php endif; ?>
